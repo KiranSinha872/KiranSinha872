@@ -5,9 +5,11 @@
 ---
 
 ## 🚀 About Me
+-🎓 B.Tech student specializing in Artificial Intelligence & Machine Learning
 - 🌱 Currently learning DSA in C++ and web development fundamentals
 - 💻 Practicing competitive programming and building small web projects
-- 🌐 Comfortable with HTML, CSS, and C++
+- 🌐 Comfortable with HTML, CSS, C++, Python, JavaScript, Node.js, Express.js, and MongoDB
+- 🚀Interested in Backend Development, AI/ML, Data Science, and DSA
 - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/kiran-sinha-555510377/)
 - 📍 Based in India
 
