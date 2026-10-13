@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 210" width="100%" height="210" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#111722" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- Radial Ambient Glow -->
+    <radialGradient id="glow-ambient" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.16">
+        <animate attributeName="stop-opacity" values="0.12;0.22;0.12" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="60%" stop-color="#388bfd" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Border Glow -->
+    <linearGradient id="border-pulse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.6">
+        <animate attributeName="stop-opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#30363d" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    <![CDATA[
+    /* Base typography using system font stack */
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      fill: #ffffff;
+      opacity: 0;
+      animation: fadeInSlide 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .subtitle-prefix {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 16px;
+      font-weight: 600;
+      fill: #58a6ff;
+    }
+
+    .tagline-text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 16px;
+      font-weight: 500;
+      fill: #58a6ff;
+    }
+
+    .bio-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 13.5px;
+      fill: #7d8590;
+    }
+
+    .status-text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 11px;
+      fill: #7d8590;
+      letter-spacing: 0.5px;
+    }
+
+    /* Hand Wave Animation */
+    .wave-wrist {
+      transform-origin: 20px 20px;
+      animation: wave 2.4s ease-in-out infinite;
+    }
+
+    @keyframes wave {
+      0% { transform: rotate(0deg); }
+      10% { transform: rotate(16deg); }
+      20% { transform: rotate(-10deg); }
+      30% { transform: rotate(18deg); }
+      40% { transform: rotate(-4deg); }
+      50% { transform: rotate(12deg); }
+      60% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    /* Name Fade & Slide In */
+    @keyframes fadeInSlide {
+      0% {
+        opacity: 0;
+        transform: translateY(-8px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Typing effect rotation for 4 phrases over 12s */
+    .phrase-1 { animation: cyclePhrase1 12s infinite; }
+    .phrase-2 { animation: cyclePhrase2 12s infinite; }
+    .phrase-3 { animation: cyclePhrase3 12s infinite; }
+    .phrase-4 { animation: cyclePhrase4 12s infinite; }
+
+    @keyframes cyclePhrase1 {
+      0%, 2% { opacity: 0; transform: translateY(4px); }
+      5%, 22% { opacity: 1; transform: translateY(0); }
+      25%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    @keyframes cyclePhrase2 {
+      0%, 25% { opacity: 0; transform: translateY(4px); }
+      30%, 47% { opacity: 1; transform: translateY(0); }
+      50%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    @keyframes cyclePhrase3 {
+      0%, 50% { opacity: 0; transform: translateY(4px); }
+      55%, 72% { opacity: 1; transform: translateY(0); }
+      75%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    @keyframes cyclePhrase4 {
+      0%, 75% { opacity: 0; transform: translateY(4px); }
+      80%, 97% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    /* Terminal Blinking Cursor */
+    .cursor-blink {
+      animation: blink 0.8s infinite;
+    }
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      50%, 95% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Floating background dots */
+    .float-dot-1 { animation: float1 5s ease-in-out infinite alternate; }
+    .float-dot-2 { animation: float2 7s ease-in-out infinite alternate; }
+    .float-dot-3 { animation: float3 6s ease-in-out infinite alternate; }
+
+    @keyframes float1 {
+      0% { transform: translate(0, 0); opacity: 0.2; }
+      100% { transform: translate(12px, -8px); opacity: 0.6; }
+    }
+    @keyframes float2 {
+      0% { transform: translate(0, 0); opacity: 0.15; }
+      100% { transform: translate(-10px, 10px); opacity: 0.5; }
+    }
+    @keyframes float3 {
+      0% { transform: translate(0, 0); opacity: 0.3; }
+      100% { transform: translate(8px, 6px); opacity: 0.7; }
+    }
+
+    /* Accessibility: Respect Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      .wave-wrist, .cursor-blink, .float-dot-1, .float-dot-2, .float-dot-3 {
+        animation: none !important;
+      }
+      .title-text {
+        opacity: 1 !important;
+        animation: none !important;
+      }
+      .phrase-1 {
+        opacity: 1 !important;
+        animation: none !important;
+      }
+      .phrase-2, .phrase-3, .phrase-4 {
+        display: none !important;
+      }
+    }
+    ]]>
+  </style>
+
+  <!-- Background Card -->
+  <rect x="1" y="1" width="838" height="208" rx="12" fill="url(#bg-grad)" stroke="url(#border-pulse)" stroke-width="1.5" />
+  <rect x="2" y="2" width="836" height="206" rx="11" fill="url(#glow-ambient)" />
+
+  <!-- Subtle Floating Dots -->
+  <circle class="float-dot-1" cx="720" cy="55" r="2.5" fill="#58a6ff" />
+  <circle class="float-dot-2" cx="120" cy="160" r="2" fill="#388bfd" />
+  <circle class="float-dot-3" cx="780" cy="140" r="1.5" fill="#79c0ff" />
+  <circle class="float-dot-2" cx="640" cy="175" r="2" fill="#58a6ff" />
+
+  <!-- Terminal Window Dots -->
+  <g transform="translate(24, 20)">
+    <circle cx="6" cy="6" r="5" fill="#ff5f56" />
+    <circle cx="22" cy="6" r="5" fill="#ffbd2e" />
+    <circle cx="38" cy="6" r="5" fill="#27c93f" />
+  </g>
+
+  <!-- Status Pill (Top Right) -->
+  <g transform="translate(625, 17)">
+    <rect x="0" y="0" width="190" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="12" cy="11" r="3.5" fill="#2ea043">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="23" y="15" class="status-text">AVAILABLE TO CONNECT</text>
+  </g>
+
+  <!-- Main Header Text + Wave -->
+  <g transform="translate(40, 85)">
+    <text x="0" y="0" class="title-text">Hi, I'm Kiran Sinha</text>
+    
+    <!-- Animated Vector Waving Hand with Wrist Pivot -->
+    <g transform="translate(285, -24)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 14 26; 22 14 26; -12 14 26; 22 14 26; -8 14 26; 16 14 26; 0 14 26"
+          keyTimes="0; 0.12; 0.24; 0.36; 0.48; 0.60; 1"
+          dur="2.4s" repeatCount="indefinite" />
+        
+        <!-- Hand Palm & Fingers -->
+        <path d="M14 2c-.9 0-1.6.7-1.6 1.6v8.2c-.3-.2-.7-.4-1.2-.4-.9 0-1.6.7-1.6 1.6v3.2c-.3-.2-.7-.4-1.2-.4-.9 0-1.6.7-1.6 1.6v3.8c-.3-.2-.7-.4-1.2-.4-.9 0-1.6.7-1.6 1.6v6.2c0 4.2 3.4 7.6 7.6 7.6 3.6 0 6.6-2.5 7.4-5.9l1.8-7.7c.2-.9-.3-1.8-1.2-2-.9-.2-1.8.3-2 1.2l-1.2 5.1V3.6c0-.9-.7-1.6-1.6-1.6z" fill="#ffcc4d" />
+        
+        <!-- Finger Contours & Shading -->
+        <path d="M12.4 11.8V3.6c0-.9.7-1.6 1.6-1.6s1.6.7 1.6 1.6v18.2l1.2-5.1c.2-.9 1.1-1.4 2-1.2.9.2 1.4 1.1 1.2 2l-1.8 7.7c-.8 3.4-3.8 5.9-7.4 5.9-4.2 0-7.6-3.4-7.6-7.6v-6.2c0-.9.7-1.6 1.6-1.6.5 0 .9.2 1.2.4v-3.8c0-.9.7-1.6 1.6-1.6.5 0 .9.2 1.2.4v-3.2c0-.9.7-1.6 1.6-1.6.5 0 .9.2 1.2.4V3.6c0-.4.2-.7.4-1-.2-.4-.2-.6-.2-.6z" fill="#f5972c" opacity="0.3" />
+        
+        <!-- Stylized Wrist Accent -->
+        <rect x="5.5" y="27" width="13" height="3" rx="1.5" fill="#388bfd" opacity="0.75" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Tagline Typing Stream -->
+  <g transform="translate(42, 126)">
+    <text x="0" y="0" class="subtitle-prefix">&gt; </text>
+    
+    <!-- Cycling Phrases with Inline Cursor -->
+    <g class="phrase-1">
+      <text x="20" y="0" class="tagline-text">C++ Developer<tspan class="cursor-blink" fill="#58a6ff" font-weight="700"> |</tspan></text>
+    </g>
+    <g class="phrase-2">
+      <text x="20" y="0" class="tagline-text">DSA Enthusiast<tspan class="cursor-blink" fill="#58a6ff" font-weight="700"> |</tspan></text>
+    </g>
+    <g class="phrase-3">
+      <text x="20" y="0" class="tagline-text">Competitive Programmer<tspan class="cursor-blink" fill="#58a6ff" font-weight="700"> |</tspan></text>
+    </g>
+    <g class="phrase-4">
+      <text x="20" y="0" class="tagline-text">Web Builder<tspan class="cursor-blink" fill="#58a6ff" font-weight="700"> |</tspan></text>
+    </g>
+  </g>
+
+  <!-- Bio Subtitle / Summary Line -->
+  <g transform="translate(42, 168)">
+    <text x="0" y="0" class="bio-text">Computer Science student building data structures &amp; algorithms in C++ and crafting modern web experiences.</text>
+  </g>
+</svg>
