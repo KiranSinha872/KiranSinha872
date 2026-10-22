@@ -165,31 +165,31 @@
     <g transform="translate(18, 88)">
       <text x="0" y="0" class="comp-hero-label">Problems Solved</text>
       <g transform="translate(0, 30)">
-        <text x="0" y="0" class="comp-stat-num" fill="#ffa116">174</text>
+        <text x="0" y="0" class="comp-stat-num" fill="#ffa116">180</text>
       </g>
       
       <!-- Ranking Badge -->
       <g transform="translate(100, 8)">
         <rect x="0" y="0" width="118" height="20" rx="10" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
-        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #1,014,460</text>
+        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #1,014,943</text>
       </g>
     </g>
 
     <!-- Solved Distribution Progress Bar -->
     <g transform="translate(18, 142)">
       <rect x="0" y="0" width="216" height="5" rx="2.5" fill="#21262d" />
-      <rect x="0" y="0" width="165" height="5" rx="2.5" fill="#00b8a3" />
-      <rect x="165" y="0" width="47" height="5" rx="2.5" fill="#ffc01e" />
+      <rect x="0" y="0" width="164" height="5" rx="2.5" fill="#00b8a3" />
+      <rect x="164" y="0" width="48" height="5" rx="2.5" fill="#ffc01e" />
       <rect x="212" y="0" width="4" height="5" rx="2.5" fill="#ff375f" />
     </g>
 
     <!-- Sub Stats: Easy / Med / Hard -->
     <g transform="translate(18, 172)">
       <text x="0" y="0" class="stat-label">Easy</text>
-      <text x="0" y="18" class="stat-val" fill="#00b8a3">133</text>
+      <text x="0" y="18" class="stat-val" fill="#00b8a3">137</text>
 
       <text x="75" y="0" class="stat-label">Medium</text>
-      <text x="75" y="18" class="stat-val" fill="#ffc01e">38</text>
+      <text x="75" y="18" class="stat-val" fill="#ffc01e">40</text>
 
       <text x="150" y="0" class="stat-label">Hard</text>
       <text x="150" y="18" class="stat-val" fill="#ff375f">3</text>
@@ -216,7 +216,7 @@
     <g transform="translate(18, 88)">
       <text x="0" y="0" class="comp-hero-label">Current Rating</text>
       <g transform="translate(0, 30)">
-        <text x="0" y="0" class="comp-stat-num" fill="#d2a679">1181</text>
+        <text x="0" y="0" class="comp-stat-num" fill="#d2a679">1185</text>
       </g>
       
       <!-- Stars / Div Badge -->
@@ -232,13 +232,13 @@
     <!-- Sub Stats -->
     <g transform="translate(18, 172)">
       <text x="0" y="0" class="stat-label">Highest</text>
-      <text x="0" y="18" class="stat-val">1181</text>
+      <text x="0" y="18" class="stat-val">1185</text>
 
       <text x="75" y="0" class="stat-label">Global</text>
-      <text x="75" y="18" class="stat-val">#97,252</text>
+      <text x="75" y="18" class="stat-val">#94,754</text>
 
       <text x="150" y="0" class="stat-label">India</text>
-      <text x="150" y="18" class="stat-val">#93,718</text>
+      <text x="150" y="18" class="stat-val">#91,272</text>
     </g>
   </g>
 </svg>
