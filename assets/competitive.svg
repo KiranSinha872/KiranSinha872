@@ -122,7 +122,7 @@
     <g transform="translate(18, 88)">
       <text x="0" y="0" class="comp-hero-label">Current Rating</text>
       <g transform="translate(0, 30)">
-        <text x="0" y="0" class="comp-stat-num" fill="#58a6ff">896</text>
+        <text x="0" y="0" class="comp-stat-num" fill="#58a6ff">904</text>
       </g>
       
       <!-- Rank Badge -->
@@ -139,7 +139,7 @@
     <!-- Sub Stats -->
     <g transform="translate(18, 172)">
       <text x="0" y="0" class="stat-label">Max Rating</text>
-      <text x="0" y="18" class="stat-val">896</text>
+      <text x="0" y="18" class="stat-val">904</text>
 
       <text x="120" y="0" class="stat-label">Contests</text>
       <text x="120" y="18" class="stat-val">6</text>
@@ -165,22 +165,22 @@
     <g transform="translate(18, 88)">
       <text x="0" y="0" class="comp-hero-label">Problems Solved</text>
       <g transform="translate(0, 30)">
-        <text x="0" y="0" class="comp-stat-num" fill="#ffa116">180</text>
+        <text x="0" y="0" class="comp-stat-num" fill="#ffa116">181</text>
       </g>
       
       <!-- Ranking Badge -->
       <g transform="translate(100, 8)">
         <rect x="0" y="0" width="118" height="20" rx="10" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
-        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #1,014,943</text>
+        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #974,202</text>
       </g>
     </g>
 
     <!-- Solved Distribution Progress Bar -->
     <g transform="translate(18, 142)">
       <rect x="0" y="0" width="216" height="5" rx="2.5" fill="#21262d" />
-      <rect x="0" y="0" width="164" height="5" rx="2.5" fill="#00b8a3" />
-      <rect x="164" y="0" width="48" height="5" rx="2.5" fill="#ffc01e" />
-      <rect x="212" y="0" width="4" height="5" rx="2.5" fill="#ff375f" />
+      <rect x="0" y="0" width="163" height="5" rx="2.5" fill="#00b8a3" />
+      <rect x="163" y="0" width="48" height="5" rx="2.5" fill="#ffc01e" />
+      <rect x="211" y="0" width="5" height="5" rx="2.5" fill="#ff375f" />
     </g>
 
     <!-- Sub Stats: Easy / Med / Hard -->
@@ -189,7 +189,7 @@
       <text x="0" y="18" class="stat-val" fill="#00b8a3">137</text>
 
       <text x="75" y="0" class="stat-label">Medium</text>
-      <text x="75" y="18" class="stat-val" fill="#ffc01e">40</text>
+      <text x="75" y="18" class="stat-val" fill="#ffc01e">41</text>
 
       <text x="150" y="0" class="stat-label">Hard</text>
       <text x="150" y="18" class="stat-val" fill="#ff375f">3</text>
