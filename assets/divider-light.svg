@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20" fill="none">
+  <style>
+    .base-line {
+      stroke: #e2e8f0;
+      stroke-width: 1;
+    }
+    .highlight-line {
+      stroke: #6366f1;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-dasharray: 80 800;
+      stroke-dashoffset: -360;
+      animation: glide 6s ease-in-out infinite;
+    }
+    @keyframes glide {
+      0% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: -720;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .highlight-line {
+        animation: none !important;
+        stroke-dashoffset: -360 !important;
+      }
+    }
+  </style>
+  <line x1="0" y1="10" x2="800" y2="10" class="base-line" />
+  <line x1="0" y1="10" x2="800" y2="10" class="highlight-line" />
+</svg>
