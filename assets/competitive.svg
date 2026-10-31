@@ -171,7 +171,7 @@
       <!-- Ranking Badge -->
       <g transform="translate(100, 8)">
         <rect x="0" y="0" width="118" height="20" rx="10" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
-        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #977,697</text>
+        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #978,153</text>
       </g>
     </g>
 
