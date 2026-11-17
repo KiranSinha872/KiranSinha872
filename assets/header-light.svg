@@ -1,24 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="800" height="130" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160" fill="none">
   <style>
-    .title {
+    .name {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 38px;
+      font-size: 40px;
       font-weight: 700;
       letter-spacing: -0.5px;
       fill: #0f172a;
-      opacity: 1;
-      transform: translateY(0);
-      animation: titleFadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+      animation: fadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
     }
-    @keyframes titleFadeUp {
-      0% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    .tagline {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      fill: #64748b;
+    }
+    .headline {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #6366f1;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
     }
     .accent-line {
       stroke: #6366f1;
@@ -26,66 +28,46 @@
       stroke-linecap: round;
       stroke-dasharray: 80;
       stroke-dashoffset: 0;
-      animation: drawAccent 0.5s ease-out 0.65s both;
-    }
-    @keyframes drawAccent {
-      0% {
-        stroke-dashoffset: 80;
-      }
-      100% {
-        stroke-dashoffset: 0;
-      }
-    }
-    .subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 18px;
-      font-weight: 400;
-      letter-spacing: 0.2px;
-      fill: #475569;
+      animation: drawLine 0.5s ease-out 0.65s both;
     }
     .char {
       opacity: 1;
-      animation: charFade 0.12s ease-out both;
+      animation: charFade 0.1s ease-out both;
+    }
+    @keyframes fadeUp {
+      0% { opacity: 0; transform: translateY(8px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes drawLine {
+      0% { stroke-dashoffset: 80; }
+      100% { stroke-dashoffset: 0; }
     }
     @keyframes charFade {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
-    .c0  { animation-delay: 1.05s; }
-    .c1  { animation-delay: 1.09s; }
-    .c2  { animation-delay: 1.13s; }
-    .c3  { animation-delay: 1.17s; }
-    .c4  { animation-delay: 1.21s; }
-    .c5  { animation-delay: 1.25s; }
-    .c6  { animation-delay: 1.29s; }
-    .c7  { animation-delay: 1.33s; }
-    .c8  { animation-delay: 1.37s; }
-    .c9  { animation-delay: 1.41s; }
-    .c10 { animation-delay: 1.45s; }
-    .c11 { animation-delay: 1.49s; }
-    .c12 { animation-delay: 1.53s; }
-    .c13 { animation-delay: 1.57s; }
-    .c14 { animation-delay: 1.61s; }
-    .c15 { animation-delay: 1.65s; }
-    .c16 { animation-delay: 1.69s; }
-    .c17 { animation-delay: 1.73s; }
-    .c18 { animation-delay: 1.77s; }
-
+    .c0  { animation-delay: 1.00s; } .c1  { animation-delay: 1.04s; }
+    .c2  { animation-delay: 1.08s; } .c3  { animation-delay: 1.12s; }
+    .c4  { animation-delay: 1.16s; } .c5  { animation-delay: 1.20s; }
+    .c6  { animation-delay: 1.24s; } .c7  { animation-delay: 1.28s; }
+    .c8  { animation-delay: 1.32s; } .c9  { animation-delay: 1.36s; }
+    .c10 { animation-delay: 1.40s; } .c11 { animation-delay: 1.44s; }
+    .c12 { animation-delay: 1.48s; } .c13 { animation-delay: 1.52s; }
+    .c14 { animation-delay: 1.56s; } .c15 { animation-delay: 1.60s; }
+    .c16 { animation-delay: 1.64s; } .c17 { animation-delay: 1.68s; }
+    .c18 { animation-delay: 1.72s; } .c19 { animation-delay: 1.76s; }
+    .c20 { animation-delay: 1.80s; } .c21 { animation-delay: 1.84s; }
+    .c22 { animation-delay: 1.88s; } .c23 { animation-delay: 1.92s; }
+    .c24 { animation-delay: 1.96s; }
     @media (prefers-reduced-motion: reduce) {
-      .title, .accent-line, .char {
-        animation: none !important;
-        opacity: 1 !important;
-        transform: none !important;
-        stroke-dashoffset: 0 !important;
-      }
+      .name, .accent-line, .char { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
     }
   </style>
 
-  <text x="400" y="52" text-anchor="middle" class="title">Kiran Sinha</text>
-  <line x1="360" y1="68" x2="440" y2="68" class="accent-line" />
-  <text x="400" y="102" text-anchor="middle" class="subtitle" xml:space="preserve"><tspan class="char c0">W</tspan><tspan class="char c1">e</tspan><tspan class="char c2">b</tspan><tspan class="char c3">&#160;</tspan><tspan class="char c4">&amp;</tspan><tspan class="char c5">&#160;</tspan><tspan class="char c6">a</tspan><tspan class="char c7">p</tspan><tspan class="char c8">p</tspan><tspan class="char c9">&#160;</tspan><tspan class="char c10">d</tspan><tspan class="char c11">e</tspan><tspan class="char c12">v</tspan><tspan class="char c13">e</tspan><tspan class="char c14">l</tspan><tspan class="char c15">o</tspan><tspan class="char c16">p</tspan><tspan class="char c17">e</tspan><tspan class="char c18">r</tspan></text>
+  <text x="400" y="56" text-anchor="middle" class="name">Kiran Sinha</text>
+  <line x1="358" y1="72" x2="442" y2="72" class="accent-line"/>
+  <!-- Tagline: AI &amp; ML student · Full-stack developer -->
+  <text x="400" y="102" text-anchor="middle" class="tagline" xml:space="preserve"><tspan class="char c0">A</tspan><tspan class="char c1">I</tspan><tspan class="char c2">&#160;</tspan><tspan class="char c3">&amp;</tspan><tspan class="char c4">&#160;</tspan><tspan class="char c5">M</tspan><tspan class="char c6">L</tspan><tspan class="char c7">&#160;</tspan><tspan class="char c8">s</tspan><tspan class="char c9">t</tspan><tspan class="char c10">u</tspan><tspan class="char c11">d</tspan><tspan class="char c12">e</tspan><tspan class="char c13">n</tspan><tspan class="char c14">t</tspan><tspan class="char c15">&#160;</tspan><tspan class="char c16">·</tspan><tspan class="char c17">&#160;</tspan><tspan class="char c18">F</tspan><tspan class="char c19">u</tspan><tspan class="char c20">l</tspan><tspan class="char c21">l</tspan><tspan class="char c22">-</tspan><tspan class="char c23">s</tspan><tspan class="char c24">t</tspan></text>
+  <!-- headline line -->
+  <text x="400" y="136" text-anchor="middle" class="headline">Build once. Ship everywhere.</text>
 </svg>
