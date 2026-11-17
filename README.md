@@ -45,12 +45,13 @@ Currently seeking a **Software Development or Web Development internship** to ap
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/KiranSinha872/ShuUp">ShuUp</a></h3>
-      <p>Full-stack e-commerce platform — product listings, cart, checkout and order management, built with the MERN stack.</p>
+      <p>Real-time 1-on-1 random video chat platform with preference-based matchmaking, WebRTC peer-to-peer streaming, and Socket.IO signaling.</p>
       <p>
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+        <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC">
+        <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white" alt="Socket.io">
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
-        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
       </p>
     </td>
   </tr>
