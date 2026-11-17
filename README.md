@@ -44,8 +44,8 @@ Currently seeking a **Software Development or Web Development internship** to ap
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/KiranSinha872/staynest">StayNest</a></h3>
-      <p>Full-stack Airbnb-style stay-booking platform with JWT auth, host/guest roles, date-range booking, and review system — built on the MERN stack.</p>
+      <h3><a href="https://github.com/KiranSinha872/ShuUp">ShuUp</a></h3>
+      <p>Full-stack e-commerce platform — product listings, cart, checkout and order management, built with the MERN stack.</p>
       <p>
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
