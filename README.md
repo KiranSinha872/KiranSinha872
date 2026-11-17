@@ -15,8 +15,11 @@
 
 ## About me
 
-I'm an AI &amp; Machine Learning student who ships full-stack products — from RAG pipelines and real-time backends to polished React frontends.
-I enjoy bridging the gap between generative AI and practical web apps, and I'm actively looking for a **Software Development or Web Development internship** where I can contribute from day one.
+B.Tech AI &amp; ML student with hands-on experience building production-grade full-stack applications and generative AI pipelines.
+I work across the entire stack — React and Next.js frontends, Node.js / FastAPI backends, PostgreSQL and MongoDB databases, and RAG systems with LangChain and ChromaDB.
+Currently seeking a **Software Development or Web Development internship** to apply and grow these skills in a professional environment.
+
+&nbsp;&nbsp;🌐 &nbsp;**Portfolio:** [kiransinha-portfolio.vercel.app](https://kiransinha-portfolio.vercel.app)
 
 <p align="center">
   <picture>
@@ -53,7 +56,7 @@ I enjoy bridging the gap between generative AI and practical web apps, and I'm a
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/KiranSinha872/kiransinha-portfolio">Portfolio</a></h3>
+      <h3><a href="https://github.com/KiranSinha872/kiransinha-portfolio">Portfolio</a> &nbsp;<a href="https://kiransinha-portfolio.vercel.app"><img src="https://img.shields.io/badge/live-▶-22c55e?style=flat-square" alt="Live"></a></h3>
       <p>Personal developer portfolio built with Next.js, TypeScript, Tailwind CSS, and Firebase, featuring an interactive Vanta.js hero section.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js">
