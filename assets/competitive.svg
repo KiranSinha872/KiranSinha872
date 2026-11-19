@@ -171,7 +171,7 @@
       <!-- Ranking Badge -->
       <g transform="translate(100, 8)">
         <rect x="0" y="0" width="118" height="20" rx="10" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
-        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #985,561</text>
+        <text x="59" y="14" text-anchor="middle" class="comp-badge-text">Rank #985,932</text>
       </g>
     </g>
 
@@ -216,7 +216,7 @@
     <g transform="translate(18, 88)">
       <text x="0" y="0" class="comp-hero-label">Current Rating</text>
       <g transform="translate(0, 30)">
-        <text x="0" y="0" class="comp-stat-num" fill="#d2a679">1185</text>
+        <text x="0" y="0" class="comp-stat-num" fill="#d2a679">1228</text>
       </g>
       
       <!-- Stars / Div Badge -->
@@ -232,13 +232,13 @@
     <!-- Sub Stats -->
     <g transform="translate(18, 172)">
       <text x="0" y="0" class="stat-label">Highest</text>
-      <text x="0" y="18" class="stat-val">1185</text>
+      <text x="0" y="18" class="stat-val">1228</text>
 
       <text x="75" y="0" class="stat-label">Global</text>
-      <text x="75" y="18" class="stat-val">#91,978</text>
+      <text x="75" y="18" class="stat-val">#82,001</text>
 
       <text x="150" y="0" class="stat-label">India</text>
-      <text x="150" y="18" class="stat-val">#88,655</text>
+      <text x="150" y="18" class="stat-val">#78,849</text>
     </g>
   </g>
 </svg>
